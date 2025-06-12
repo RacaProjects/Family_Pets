@@ -1,0 +1,64 @@
+body { /* clase body de la pagina */
+  font-family: Arial, sans-serif; /* Tamaño fuente */
+  margin: 0; /* Margen */
+  padding: 0; /* crea el espacio o área alrededor del contenido de un elemento */
+  background-color: #f4f4f4; /* Color de fondo */
+}
+
+header {
+  background-color: #ff914d; /* Color del fondo de Header o parti arriba de la pagina */
+  color: rgb(0, 0, 0); /* Color de letra */
+  padding: 15px;
+  text-align: center; /* Para alinear el texto en este caso al centro */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bienvenida {
+  text-align: center;
+  background-color: #ffe8d6;
+  padding: 30px 0;
+}
+
+.mascotas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.mascota {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 200px;
+  text-align: center;
+}
+
+.foto_mascota {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
